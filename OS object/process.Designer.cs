@@ -102,7 +102,7 @@
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(51, 598);
+            this.textBox2.Location = new System.Drawing.Point(67, 589);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(659, 30);
@@ -121,6 +121,7 @@
             this.button7.TabIndex = 21;
             this.button7.Text = "shut down pc ";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -135,6 +136,7 @@
             this.button6.TabIndex = 20;
             this.button6.Text = "search in google";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -149,6 +151,7 @@
             this.button5.TabIndex = 19;
             this.button5.Text = "process by name";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -163,6 +166,7 @@
             this.button3.TabIndex = 18;
             this.button3.Text = "kill process by id";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -177,6 +181,7 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "show process by id";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -191,6 +196,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "show all process";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // current_process
             // 
@@ -205,6 +211,7 @@
             this.current_process.TabIndex = 15;
             this.current_process.Text = "show current";
             this.current_process.UseVisualStyleBackColor = false;
+            this.current_process.Click += new System.EventHandler(this.current_process_Click);
             // 
             // textBox1
             // 

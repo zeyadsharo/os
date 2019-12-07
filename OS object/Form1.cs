@@ -52,5 +52,17 @@ namespace OS_object
             process p = new process();
             p.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            file f = new file();
+            f.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            test f = new test();
+            f.Show();
+        }
     }
 }

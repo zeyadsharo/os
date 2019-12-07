@@ -36,6 +36,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -66,7 +67,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(227, 169);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 43);
+            this.button2.Size = new System.Drawing.Size(163, 50);
             this.button2.TabIndex = 2;
             this.button2.Text = "multi thread";
             this.button2.UseVisualStyleBackColor = false;
@@ -76,7 +77,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(227, 218);
+            this.button3.Location = new System.Drawing.Point(227, 227);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(163, 52);
             this.button3.TabIndex = 3;
@@ -92,7 +93,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(163, 46);
             this.button4.TabIndex = 4;
-            this.button4.Text = "FCFE";
+            this.button4.Text = "FCFS";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -100,7 +101,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(39, 285);
+            this.button5.Location = new System.Drawing.Point(39, 233);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(163, 46);
             this.button5.TabIndex = 5;
@@ -118,6 +119,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "File";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -131,12 +133,25 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(39, 285);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(163, 46);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "test";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(442, 399);
+            this.ClientSize = new System.Drawing.Size(430, 373);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -162,6 +177,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }
 

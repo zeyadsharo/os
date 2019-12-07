@@ -16,16 +16,20 @@ namespace OS_object
         {
             InitializeComponent();
         }
-        //is work like interface 
-        public delegate void print(string a);
-        public void changename(string X)
+        
+        public delegate void print(string str);
+        void changname(string X)
         {
             label1.Text = X;
-
         }
         public void abc()
         {
-            label1.Invoke(new print(changename), new object[] { "student " });
+            label1.Invoke(new print(changname), new object[] { "student" });
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Thread t = new Thread(new ThreadStart(abc));
+            t.Start();
         }
         bool f=false;
         private void button1_Click(object sender, EventArgs e)
@@ -41,9 +45,9 @@ namespace OS_object
             label1.ForeColor = Color.Red;
             Thread.Sleep(500); //for the time sleep deily time
             label1.ForeColor = Color.Green;
-                Thread.Sleep(400);
-                label1.ForeColor = Color.Pink;
-                Thread.Sleep(600);
+            Thread.Sleep(400);
+            label1.ForeColor = Color.Pink;
+            Thread.Sleep(600);
             }
           
            // Thread.Sleep(3000);
@@ -57,11 +61,7 @@ namespace OS_object
             th.Abort();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Thread change_name = new Thread(new ThreadStart(abc));
-            change_name.Start();
-        }
+        
 
         private void button4_Click(object sender, EventArgs e)
         {

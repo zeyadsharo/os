@@ -50,3 +50,6 @@ D:\OS object\OS object\obj\Debug\OS_object.listview.resources
 D:\OS object\OS object\obj\Debug\OS_object.FCFE.resources
 D:\OS object\OS object\obj\Debug\OS object.csprojAssemblyReference.cache
 D:\OS object\OS object\obj\Debug\OS_object.SFJ.resources
+D:\OS object\OS object\obj\Debug\OS_object.process.resources
+D:\OS object\OS object\obj\Debug\OS_object.File.resources
+D:\OS object\OS object\obj\Debug\OS_object.test.resources
