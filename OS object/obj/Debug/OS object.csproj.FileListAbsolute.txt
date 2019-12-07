@@ -1,0 +1,52 @@
+D:\OS object\OS object\bin\Debug\OS object.exe.config
+D:\OS object\OS object\bin\Debug\OS object.exe
+D:\OS object\OS object\bin\Debug\OS object.pdb
+D:\OS object\OS object\obj\Debug\OS_object.Form1.resources
+D:\OS object\OS object\obj\Debug\OS_object.Properties.Resources.resources
+D:\OS object\OS object\obj\Debug\OS_object.threads.resources
+D:\OS object\OS object\obj\Debug\OS object.csproj.GenerateResource.cache
+D:\OS object\OS object\obj\Debug\OS object.csproj.CoreCompileInputs.cache
+D:\OS object\OS object\obj\Debug\OS object.exe
+D:\OS object\OS object\obj\Debug\OS object.pdb
+D:\OS object\OS object\bin\Debug\DevExpress.Data.v18.1.dll
+D:\OS object\OS object\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+D:\OS object\OS object\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+D:\OS object\OS object\bin\Debug\DevExpress.Utils.v18.1.dll
+D:\OS object\OS object\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+D:\OS object\OS object\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+D:\OS object\OS object\bin\Debug\DevExpress.Data.v18.1.xml
+D:\OS object\OS object\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+D:\OS object\OS object\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+D:\OS object\OS object\bin\Debug\DevExpress.Utils.v18.1.xml
+D:\OS object\OS object\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+D:\OS object\OS object\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+D:\OS object\OS object\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+D:\OS object\OS object\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\OS object\OS object\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+D:\OS object\OS object\obj\Debug\OS object.csproj.CopyComplete
+D:\OS object\OS object\obj\Debug\OS_object.multithreads.resources
+D:\OS object\OS object\obj\Debug\OS_object.listview.resources
+D:\OS object\OS object\obj\Debug\OS_object.FCFE.resources
+D:\OS object\OS object\obj\Debug\OS object.csprojAssemblyReference.cache
+D:\OS object\OS object\obj\Debug\OS_object.SFJ.resources
