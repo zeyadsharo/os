@@ -98,6 +98,12 @@
     <Compile Include="multithreads.Designer.cs">
       <DependentUpon>multithreads.cs</DependentUpon>
     </Compile>
+    <Compile Include="priority.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="priority.Designer.cs">
+      <DependentUpon>priority.cs</DependentUpon>
+    </Compile>
     <Compile Include="process.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="multithreads.resx">
       <DependentUpon>multithreads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="priority.resx">
+      <DependentUpon>priority.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="process.resx">
       <DependentUpon>process.cs</DependentUpon>

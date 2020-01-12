@@ -16,18 +16,19 @@ namespace OS_object
         {
             InitializeComponent();
         }
-        
+        int count = 1;
         private void button1_Click(object sender, EventArgs e)
         {           
             if (bursttime.Text != "")
             {
                 int n = listView1.Items.Count;
-                ListViewItem a = new ListViewItem(process.Text);
+                ListViewItem a = new ListViewItem("P"+count++);
                 listView1.Items.Add(a);
                 a.SubItems.Add(bursttime.Text);
+                a.SubItems.Add(arrivetime.Text);
             }
-            process.Clear();
             bursttime.Clear();
+            arrivetime.Clear();
         
         }
 
@@ -71,6 +72,11 @@ namespace OS_object
         private void button3_Click(object sender, EventArgs e)
         {
             additem();
+        }
+
+        private void SFJ_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

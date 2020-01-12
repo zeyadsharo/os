@@ -64,5 +64,11 @@ namespace OS_object
             test f = new test();
             f.Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            priority p = new priority();
+            p.Show();
+        }
     }
 }
