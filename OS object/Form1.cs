@@ -70,5 +70,17 @@ namespace OS_object
             priority p = new priority();
             p.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            proritywith_A f = new proritywith_A();
+            f.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            RR rR = new RR();
+            rR.Show();
+        }
     }
 }

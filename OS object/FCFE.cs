@@ -21,17 +21,16 @@ namespace OS_object
         {
 
         }
-        
+        int count = 1;
         private void button1_Click(object sender, EventArgs e)
         {
             if (bursttime.Text != "")
             {
                 int n = listView1.Items.Count;
-                ListViewItem a = new ListViewItem(process.Text);
+                ListViewItem a = new ListViewItem("P"+count++);
                 listView1.Items.Add(a);
                 a.SubItems.Add(bursttime.Text);
             }
-            process.Clear();
             bursttime.Clear();
         }
 
@@ -44,15 +43,15 @@ namespace OS_object
 
         private void button2_Click(object sender, EventArgs e)
         {
-
-            double sum = 0;
-
+            double [] bt = new double[listView1.Items.Count];
+            double[] wt = new double[listView1.Items.Count];
             for (int i = 0; i < listView1.Items.Count; i++)
             {
-                sum=sum+ double.Parse(listView1.Items[i].SubItems[1].Text);
+                bt[i]= double.Parse(listView1.Items[i].SubItems[1].Text);
             }
-            double average = sum / listView1.Items.Count;
-            avrage.Text = average.ToString();
+            wt = findWaitingTime(bt);
+            avrage.Text = wt.Sum() / listView1.Items.Count + "";
+
         }
 
         private void listfcfe_SelectedIndexChanged(object sender, EventArgs e)
@@ -64,5 +63,55 @@ namespace OS_object
         {
 
         }
+
+        double[] findWaitingTime(double[] bt)
+        {
+            // waiting time for first process is 0  
+            double[] wt = new double[listView1.Items.Count];
+            double[] tat = new double[listView1.Items.Count];
+            wt[0] = 0;
+          
+            // calculating waiting time  
+            for (int i = 1; i < listView1.Items.Count; i++)
+            {
+                wt[i] = bt[i - 1] + wt[i - 1];
+                tat[i-1] = bt[i-1] + wt[i-1];
+            }
+           
+             MessageBox.Show("[{0}]", string.Join(", ", tat));
+            return wt;
+           
+        }
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

@@ -48,9 +48,11 @@ D:\OS object\OS object\obj\Debug\OS object.csproj.CopyComplete
 D:\OS object\OS object\obj\Debug\OS_object.multithreads.resources
 D:\OS object\OS object\obj\Debug\OS_object.listview.resources
 D:\OS object\OS object\obj\Debug\OS_object.FCFE.resources
-D:\OS object\OS object\obj\Debug\OS object.csprojAssemblyReference.cache
 D:\OS object\OS object\obj\Debug\OS_object.SFJ.resources
 D:\OS object\OS object\obj\Debug\OS_object.process.resources
 D:\OS object\OS object\obj\Debug\OS_object.File.resources
 D:\OS object\OS object\obj\Debug\OS_object.test.resources
 D:\OS object\OS object\obj\Debug\OS_object.priority.resources
+D:\OS object\OS object\obj\Debug\OS_object.proritywith_A.resources
+D:\OS object\OS object\obj\Debug\OS_object.RR.resources
+D:\OS object\OS object\obj\Debug\OS object.csprojAssemblyReference.cache

@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace OS_object
 {
-    public partial class priority : Form
+    public partial class proritywith_A : Form
     {
-        public priority()
+        public proritywith_A()
         {
             InitializeComponent();
         }
-        int count = 1;
+        int count=0;
         private void button1_Click(object sender, EventArgs e)
         {
             if (bursttime.Text != "")
@@ -25,16 +25,21 @@ namespace OS_object
                 ListViewItem a = new ListViewItem("P" + count++);
                 listView1.Items.Add(a);
                 a.SubItems.Add(bursttime.Text);
+                a.SubItems.Add(arrive_time.Text);
                 a.SubItems.Add(pri.Text);
             }
             bursttime.Clear();
             pri.Clear();
+            arrive_time.Clear();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            result();
         }
+
+
+
 
         void result()
         {
@@ -48,51 +53,58 @@ namespace OS_object
             double[] p = new double[listView1.Items.Count];
             for (int i = 0; i < listView1.Items.Count; i++)
             {
-                p[i] = double.Parse(listView1.Items[i].SubItems[2].Text);
+                p[i] = double.Parse(listView1.Items[i].SubItems[3].Text);
             }
 
-            
+            double[] arrivetime = new double[listView1.Items.Count];
+            for (int i = 0; i < listView1.Items.Count; i++)
+            {
+                arrivetime[i] = double.Parse(listView1.Items[i].SubItems[2].Text);
+            }
+
+
+
             for (int j = 0; j <= bt.Length - 2; j++)
             {
                 for (int i = 0; i <= bt.Length - 2; i++)
                 {
                     if (p[i] > p[i + 1])
                     {
-                      
-                      double  temp = bt[i + 1];
+
+                        double temp = bt[i + 1];
                         bt[i + 1] = bt[i];
                         bt[i] = temp;
 
                         double temp1 = p[i + 1];
                         p[i + 1] = p[i];
                         p[i] = temp1;
-                       
+
+
+                        double temp2 = arrivetime[i + 1];
+                        arrivetime[i + 1] = arrivetime[i];
+                        arrivetime[i]=temp2;
+
+
                     }
-                   
+
                 }
 
-             }
-
-               
-
-                double[] X1 = new double[listView1.Items.Count];
-                X1[0] = 0;
-                string str = "0, ";
-                for (int i = 1; i < X1.Length; i++)
-                {
-                    X1[i] = X1[i - 1] + bt[i - 1];
-                    str += X1[i - 1] + bt[i - 1] + ",";
-                }
-                textBox1.Text = str;
-
-                average.Text = X1.Sum() / X1.Length + "";
-
-
-           
+            }
+            double[] X1 = new double[listView1.Items.Count];
+            X1[0] = 0;
+            string str = "0, ";
+            for (int i = 1; i < X1.Length; i++)
+            {
+                X1[i] = X1[i - 1] + bt[i - 1];
+                str += X1[i] + ",";
+            }
+           // textBox1.Text = str;
+            
+            average.Text = X1.Sum() / X1.Length + "";
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            result();
-        }
+
+
+
     }
+
 }
