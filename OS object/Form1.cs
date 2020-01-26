@@ -82,5 +82,10 @@ namespace OS_object
             RR rR = new RR();
             rR.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

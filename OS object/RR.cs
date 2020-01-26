@@ -28,14 +28,37 @@ namespace OS_object
                 int n = listView1.Items.Count;
                 ListViewItem a = new ListViewItem("P" + count++);
                 listView1.Items.Add(a);
-                a.SubItems.Add(bursttime.Text);    
+                a.SubItems.Add(bursttime.Text);
             }
-            bursttime.Clear();
-            pri.Clear();
-            q = int.Parse(pri.Text);
+            bursttime.Clear(); 
+        }
+        public void toarray()
+        {
+            int[] bt = new int[listView1.Items.Count];
+            for (int i = 0; i < bt.Length; i++)
+            {
+                bt[i] = int.Parse(listView1.Items[i].SubItems[1].Text);
+            }
+
+            Raundr raundr = new Raundr();
+            // process id's 
+          
+
+            // Burst time of all processes 
            
-    }  
-   }
+
+            // Time quantum 
+            int quantum = int.Parse( quantom.Text);
+           float d= raundr.findavgTime(listView1.Items.Count, bt, quantum);
+            averagerr.Text = d + "";
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            toarray();
+        }
+    }
 
 
 

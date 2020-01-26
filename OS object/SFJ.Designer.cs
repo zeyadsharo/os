@@ -31,6 +31,7 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label3 = new System.Windows.Forms.Label();
             this.bursttime = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,7 +40,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.arrivetime = new System.Windows.Forms.TextBox();
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // listView1
@@ -50,9 +50,10 @@
             this.columnHeader3});
             this.listView1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(412, 85);
+            this.listView1.Location = new System.Drawing.Point(464, 106);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(384, 306);
+            this.listView1.Size = new System.Drawing.Size(432, 382);
             this.listView1.TabIndex = 25;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -60,30 +61,36 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "process";
-            this.columnHeader1.Width = 162;
+            this.columnHeader1.Width = 141;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "burst time";
-            this.columnHeader2.Width = 241;
+            this.columnHeader2.Width = 157;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "A.T";
+            this.columnHeader3.Width = 119;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(39, 94);
+            this.label3.Location = new System.Drawing.Point(44, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 32);
+            this.label3.Size = new System.Drawing.Size(157, 38);
             this.label3.TabIndex = 22;
             this.label3.Text = "Burst tme";
             // 
             // bursttime
             // 
-            this.bursttime.Location = new System.Drawing.Point(213, 94);
+            this.bursttime.Location = new System.Drawing.Point(240, 118);
+            this.bursttime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bursttime.Multiline = true;
             this.bursttime.Name = "bursttime";
-            this.bursttime.Size = new System.Drawing.Size(138, 38);
+            this.bursttime.Size = new System.Drawing.Size(155, 46);
             this.bursttime.TabIndex = 21;
             // 
             // button1
@@ -91,9 +98,10 @@
             this.button1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(209, 254);
+            this.button1.Location = new System.Drawing.Point(235, 274);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 48);
+            this.button1.Size = new System.Drawing.Size(160, 60);
             this.button1.TabIndex = 20;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -101,10 +109,11 @@
             // 
             // avrage
             // 
-            this.avrage.Location = new System.Drawing.Point(614, 417);
+            this.avrage.Location = new System.Drawing.Point(691, 521);
+            this.avrage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.avrage.Multiline = true;
             this.avrage.Name = "avrage";
-            this.avrage.Size = new System.Drawing.Size(138, 48);
+            this.avrage.Size = new System.Drawing.Size(155, 59);
             this.avrage.TabIndex = 27;
             // 
             // button3
@@ -112,9 +121,10 @@
             this.button3.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button3.Location = new System.Drawing.Point(433, 417);
+            this.button3.Location = new System.Drawing.Point(487, 521);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 48);
+            this.button3.Size = new System.Drawing.Size(160, 60);
             this.button3.TabIndex = 28;
             this.button3.Text = "show";
             this.button3.UseVisualStyleBackColor = false;
@@ -122,10 +132,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(143, 417);
+            this.textBox1.Location = new System.Drawing.Point(161, 521);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(249, 48);
+            this.textBox1.Size = new System.Drawing.Size(280, 59);
             this.textBox1.TabIndex = 29;
             // 
             // label1
@@ -133,30 +144,26 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(39, 147);
+            this.label1.Location = new System.Drawing.Point(44, 184);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 32);
+            this.label1.Size = new System.Drawing.Size(184, 38);
             this.label1.TabIndex = 31;
             this.label1.Text = "Arrive Time";
             // 
             // arrivetime
             // 
-            this.arrivetime.Location = new System.Drawing.Point(213, 147);
+            this.arrivetime.Location = new System.Drawing.Point(240, 184);
+            this.arrivetime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.arrivetime.Multiline = true;
             this.arrivetime.Name = "arrivetime";
-            this.arrivetime.Size = new System.Drawing.Size(138, 38);
+            this.arrivetime.Size = new System.Drawing.Size(155, 46);
             this.arrivetime.TabIndex = 30;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "A.T";
-            this.columnHeader3.Width = 119;
             // 
             // SFJ
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(808, 514);
+            this.ClientSize = new System.Drawing.Size(909, 642);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.arrivetime);
             this.Controls.Add(this.textBox1);
@@ -166,6 +173,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.bursttime);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "SFJ";
             this.Text = "SFJ";
             this.Load += new System.EventHandler(this.SFJ_Load);

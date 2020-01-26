@@ -41,7 +41,6 @@ namespace OS_object
                 X[i]=double.Parse(listView1.Items[i].SubItems[1].Text);
             }
             Array.Sort(X);
-
             double[] X1 = new double[listView1.Items.Count];
             X1[0] = 0;
             string str = "0, ";
@@ -51,7 +50,6 @@ namespace OS_object
                 str += X1[i - 1] + X[i - 1] + ",";
             }
             textBox1.Text = str;
-
             avrage.Text=X1.Sum()/X1.Length+"";
 
           

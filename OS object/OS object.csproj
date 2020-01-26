@@ -86,7 +86,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GFG.cs" />
     <Compile Include="listview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +118,7 @@
     <Compile Include="proritywith_A.T.Designer.cs">
       <DependentUpon>proritywith_A.T.cs</DependentUpon>
     </Compile>
+    <Compile Include="Raundr.cs" />
     <Compile Include="RR.cs">
       <SubType>Form</SubType>
     </Compile>
