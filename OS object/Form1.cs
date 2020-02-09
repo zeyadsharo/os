@@ -87,5 +87,11 @@ namespace OS_object
         {
 
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            banker banker = new banker();
+            banker.Show();
+        }
     }
 }

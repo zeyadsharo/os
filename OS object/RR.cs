@@ -39,7 +39,6 @@ namespace OS_object
             {
                 bt[i] = int.Parse(listView1.Items[i].SubItems[1].Text);
             }
-
             Raundr raundr = new Raundr();
             // process id's 
           

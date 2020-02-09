@@ -56,3 +56,4 @@ D:\OS object\OS object\obj\Debug\OS_object.priority.resources
 D:\OS object\OS object\obj\Debug\OS_object.proritywith_A.resources
 D:\OS object\OS object\obj\Debug\OS_object.RR.resources
 D:\OS object\OS object\obj\Debug\OS object.csprojAssemblyReference.cache
+D:\OS object\OS object\obj\Debug\OS_object.RrAT.resources
